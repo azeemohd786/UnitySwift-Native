@@ -1,0 +1,36 @@
+//
+//  PrefixHeader.pch
+//  UnitySwift
+//
+//  Created by JOY JOSE on 21/03/19.
+//  Copyright © 2019 Riverswave Technologies, India. All rights reserved.
+//
+
+#ifndef PrefixHeader_pch
+#define PrefixHeader_pch
+
+#include "Preprocessor.h"
+
+#ifdef __OBJC__
+#import <Foundation/Foundation.h>
+#import <UIKit/UIKit.h>
+#import "UnityAppController.h"
+#endif
+
+#include "UnityTrampolineConfigure.h"
+#include "UnityInterface.h"
+
+#ifndef __OBJC__
+#if USE_IL2CPP_PCH
+#include "il2cpp_precompiled_header.h"
+#endif
+#endif
+
+#ifndef TARGET_IPHONE_SIMULATOR
+#define TARGET_IPHONE_SIMULATOR 0
+#endif
+
+#define printf_console printf
+
+
+#endif /* PrefixHeader_pch */
