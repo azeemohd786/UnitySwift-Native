@@ -1,5 +1,5 @@
 
-![# UnitySwift-Native
+# UnitySwift-Native
 This Repository is clean build for Swift Kat Tutorial in youtube based on Unity in Native iOS App with latest version of Xcode- 10.1, Swift 4.2 and Unity version 2018.3.9f1 (unity released in March 2019).
 
 Video links for Integration, Unity in Native iOS
@@ -12,6 +12,4 @@ Full Video Unity Integration in Native, Swift :- https://www.skillshare.com/r/pr
 
 Teachable: - https://swift-kat.teachable.com/p/unity-integration-in-native-ios
 
-NOTE: Do not try with this Unity build link, try your unity files to integrate.]
-
-(/Users/jmatics3/Desktop/Azeem\'s\ Files/SWIFTKATPIC.jpg? raw=true "Optional Title")
+NOTE: Do not try with this Unity build link, try your unity files to integrate.
